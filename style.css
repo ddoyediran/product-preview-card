@@ -29,7 +29,7 @@ body {
   /* margin-left: 2.5rem; */
   /* margin-top: 25px; */
   padding-left: 2.5rem;
-  padding-top: 25px;
+  padding-top: 45px;
   padding-right: 2.5rem;
   background-color: white;
   border-radius: 0 10px 10px 0;
@@ -37,7 +37,6 @@ body {
 
 .h3-perfume-text {
   font-size: 10px;
-  /* font-family: "Fraunces", serif; */
   text-transform: uppercase;
   letter-spacing: 5px;
   color: hsl(228, 12%, 48%);
@@ -69,6 +68,7 @@ body {
   display: flex;
   flex-direction: left;
   /* border: 2px solid red; */
+  margin-bottom: 30px;
 }
 
 .price-one {
@@ -83,4 +83,21 @@ body {
   font-family: "Montserrat", sans-serif;
   padding-top: 10px;
   text-decoration: line-through;
+}
+
+.add-to-cart-btn {
+  border: none;
+  background-color: rgb(2, 99, 2);
+  color: white;
+  height: 3rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.fa-solid {
+  margin-right: 14px;
 }
